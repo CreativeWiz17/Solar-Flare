@@ -1,0 +1,20 @@
+# Solar Flare Radiation Impact Predictor - Required Python Packages
+# 
+# What each package does:
+# - numpy: Fast math calculations (integrating flare energy)
+# - matplotlib: Creating scientific graphs and visualizations  
+# - scipy: Advanced scientific calculations (finding flare peaks)
+# - sunpy: Downloads real solar data from GOES satellites
+# - pandas: Organizing and managing data tables
+# - astropy: Astronomy calculations and unit conversions
+#
+# Install all at once with: pip install -r requirements.txt
+
+numpy>=1.21.0
+matplotlib>=3.5.0  
+scipy>=1.7.0
+sunpy>=4.0.0
+pandas>=1.3.0
+astropy>=5.0.0
+
+# Note: If sunpy installation fails, the program will still work with simulated data
